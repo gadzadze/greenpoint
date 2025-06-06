@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tesla Service Georgia - GreenPoint</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-container container">
+            <div class="logo">
+                <div class="logo-text">
+                    <h1><a href="index.html">GreenPoint</a></h1>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#v2v">V2V</a></li>
+                    <li><a href="index.html#maintenance">Maintenance</a></li>
+                    <li><a href="index.html#features">Features</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <a href="#loginModal" class="button secondary small">Login</a>
+                <a href="#registerModal" class="button primary small">Sign Up</a>
+            </div>
+            <div class="user-menu">
+                <div class="user-dropdown">
+                    <i class="fas fa-user-circle user-avatar"></i>
+                    <span class="user-name">John Doe</span>
+                    <div class="dropdown-content">
+                        <a href="#profile"><i class="fas fa-user"></i> My Profile</a>
+                        <a href="#my-ev"><i class="fas fa-car"></i> My EV</a>
+                        <a href="#charging-history"><i class="fas fa-bolt"></i> Charging History</a>
+                        <a href="#settings"><i class="fas fa-cog"></i> Settings</a>
+                        <a href="#logout"><i class="fas fa-sign-out-alt"></i> Logout</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="bottom-bar">
+        <a href="index.html#home" class="active"><i class="fas fa-home"></i> Home</a>
+        <a href="index.html#find-charger"><i class="fas fa-charging-station"></i> Find Charger</a>
+        <a href="index.html#v2v"><i class="fas fa-exchange-alt"></i> V2V</a>
+        <a href="index.html#maintenance"><i class="fas fa-tools"></i> Maintenance</a>
+        <a href="index.html#profile"><i class="fas fa-user"></i> Profile</a>
+    </div>
+
+    <section class="service-center-section">
+        <div class="container">
+            <div class="service-center-header">
+                <div class="service-center-image">
+                    <img src="https://www.insta.ge/wp-content/uploads/2020/04/Porsche-Center-Tbilisi-1-1-1.jpg" alt="Tesla Service Georgia">
+                </div>
+                <div class="service-center-info">
+                    <h1>Tesla Service Georgia</h1>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>4.8 (245 reviews)</span>
+                    </div>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> 45 Vazha-Pshavela Ave, Tbilisi, Georgia</p>
+                        <p><i class="fas fa-phone"></i> <a href="tel:+995322664455">032 266 44 55</a></p>
+                        <p><i class="fas fa-envelope"></i> <a href="mailto:service@teslageorgia.ge">service@teslageorgia.ge</a></p>
+                        <p><i class="fas fa-globe"></i> <a href="https://www.tesla.com/georgia" target="_blank">www.tesla.com/georgia</a></p>
+                    </div>
+                    <div class="working-hours">
+                        <h3>Working Hours</h3>
+                        <table>
+                            <tr><td>Monday - Friday</td><td>9:00 AM - 7:00 PM</td></tr>
+                            <tr><td>Saturday</td><td>10:00 AM - 4:00 PM</td></tr>
+                            <tr><td>Sunday</td><td>Closed</td></tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-center-description">
+                <h2>About Tesla Service Georgia</h2>
+                <p>Tesla Service Georgia is an official Tesla service center dedicated to providing top-tier maintenance and repair services for Tesla electric vehicles. Our factory-trained technicians use cutting-edge diagnostic tools and genuine Tesla parts to ensure your vehicle delivers peak performance.</p>
+                <p>Located in the heart of Tbilisi, we offer a comfortable waiting area, complimentary Wi-Fi, and fast-charging stations on-site. Our commitment to excellence and sustainability makes us the preferred choice for Tesla owners in Georgia.</p>
+            </div>
+
+            <div class="service-center-services">
+                <h2>Our Services</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-details">
+                            <h3>Battery Diagnostic</h3>
+                            <p>Advanced diagnostics to assess and optimize your Tesla's battery performance.</p>
+                            <div class="service-meta">
+                                <span class="price">200 GEL</span>
+                                <span class="duration"><i class="fas fa-clock"></i> 60 min</span>
+                            </div>
+                        </div>
+                        <a href="#bookingModal" class="button primary">Book Now</a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-details">
+                            <h3>Firmware Update</h3>
+                            <p>Keep your Tesla's software up-to-date with the latest features and improvements.</p>
+                            <div class="service-meta">
+                                <span class="price">100 GEL</span>
+                                <span class="duration"><i class="fas fa-clock"></i> 30 min</span>
+                            </div>
+                        </div>
+                        <a href="#bookingModal" class="button primary">Book Now</a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-details">
+                            <h3>Tire Service</h3>
+                            <p>Professional tire rotation, balancing, and alignment for optimal handling.</p>
+                            <div class="service-meta">
+                                <span class="price">150 GEL</span>
+                                <span class="duration"><i class="fas fa-clock"></i> 45 min</span>
+                            </div>
+                        </div>
+                        <a href="#bookingModal" class="button primary">Book Now</a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-details">
+                            <h3>Brake Maintenance</h3>
+                            <p>Comprehensive brake system check and service for safety and reliability.</p>
+                            <div class="service-meta">
+                                <span class="price">250 GEL</span>
+                                <span class="duration"><i class="fas fa-clock"></i> 60 min</span>
+                            </div>
+                        </div>
+                        <a href="#bookingModal" class="button primary">Book Now</a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-details">
+                            <h3>Charging System Check</h3>
+                            <p>Inspection and maintenance of your Tesla's charging system for seamless charging.</p>
+                            <div class="service-meta">
+                                <span class="price">120 GEL</span>
+                                <span class="duration"><i class="fas fa-clock"></i> 30 min</span>
+                            </div>
+                        </div>
+                        <a href="#bookingModal" class="button primary">Book Now</a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-details">
+                            <h3>Full Vehicle Inspection</h3>
+                            <p>Complete diagnostic check of all major systems to keep your Tesla in top condition.</p>
+                            <div class="service-meta">
+                                <span class="price">400 GEL</span>
+                                <span class="duration"><i class="fas fa-clock"></i> 120 min</span>
+                            </div>
+                        </div>
+                        <a href="#bookingModal" class="button primary">Book Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-center-reviews">
+                <h2>Customer Reviews</h2>
+                <div class="reviews-grid">
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="reviewer">
+                                <i class="fas fa-user-circle"></i>
+                                <span>Maria S.</span>
+                            </div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="review-content">
+                            <p>Outstanding service! My Tesla Model 3 was serviced quickly, and the staff was incredibly professional. The charging stations on-site were a huge plus!</p>
+                        </div>
+                        <div class="review-date">June 1, 2025</div>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="reviewer">
+                                <i class="fas fa-user-circle"></i>
+                                <span>David T.</span>
+                            </div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                        <div class="review-content">
+                            <p>The firmware update was done in no time, and the team explained everything clearly. Highly recommend Tesla Service Georgia!</p>
+                        </div>
+                        <div class="review-date">May 15, 2025</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-links">
+                <h3>GreenPoint</h3>
+                <p>Making EV charging accessible and sustainable through community sharing.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#features">Features</a></li>
+                    <li><a href="index.html#find-charger">Find Charger</a></li>
+                    <li><a href="index.html#become-host">Become Host</a></li>
+                    <li><a href="index.html#about">About Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h3>Resources</h3>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Safety Guidelines</a></li>
+                    <li><a href="#">Support Center</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Host Agreement</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            © 2025 GreenPoint Technologies. All rights reserved.
+        </div>
+    </footer>
+
+    <div id="bookingModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2 class="modal-title">Book Service</h2>
+            <div class="booked-times">
+                <h4>Already Booked Times</h4>
+                <p>No bookings available for selected date.</p>
+            </div>
+            <form class="modal-form">
+                <div class="form-group">
+                    <label for="serviceProvider">Service Provider</label>
+                    <input type="text" id="serviceProvider" class="form-control" value="Tesla Service Georgia" readonly>
+                </div>
+                <div class="form-group">
+                    <label for="bookingName">Your Name</label>
+                    <input type="text" id="bookingName" class="form-control" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="bookingEmail">Email</label>
+                    <input type="email" id="bookingEmail" class="form-control" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="bookingPhone">Phone Number</label>
+                    <input type="tel" id="bookingPhone" class="form-control" placeholder="Enter your phone number">
+                </div>
+                <div class="form-group">
+                    <label for="bookingEvModel">Your EV Model</label>
+                    <select id="bookingEvModel" class="form-control">
+                        <option value="">Select your EV model</option>
+                        <option value="Tesla Model 3">Tesla Model 3</option>
+                        <option value="Tesla Model S">Tesla Model S</option>
+                        <option value="Tesla Model X">Tesla Model X</option>
+                        <option value="Tesla Model Y">Tesla Model Y</option>
+                        <option value="Audi e-tron">Audi e-tron</option>
+                        <option value="BMW i4">BMW i4</option>
+                        <option value="BMW iX">BMW iX</option>
+                        <option value="Ford Mustang Mach-E">Ford Mustang Mach-E</option>
+                        <option value="Hyundai Ioniq 5">Hyundai Ioniq 5</option>
+                        <option value="Kia EV6">Kia EV6</option>
+                        <option value="Volkswagen ID.4">Volkswagen ID.4</option>
+                        <option value="Rivian R1T">Rivian R1T</option>
+                        <option value="Rivian R1S">Rivian R1S</option>
+                        <option value="Lucid Air">Lucid Air</option>
+                        <option value="Nissan Leaf">Nissan Leaf</option>
+                        <option value="Chevrolet Bolt">Chevrolet Bolt</option>
+                        <option value="Other">Other EV Model</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="bookingDate">Date</label>
+                    <input type="date" id="bookingDate" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="bookingTime">Time</label>
+                    <select id="bookingTime" class="form-control">
+                        <option value="">Select time</option>
+                    </select>
+                </div>
+                <div class="payment-section">
+                    <h4>Payment Information</h4>
+                    <div class="price-display">Service Price: 0 GEL</div>
+                    <div class="form-group">
+                        <label for="bookingPaymentCard">Card Number</label>
+                        <input type="text" id="bookingPaymentCard" class="form-control" placeholder="xxxx xxxx xxxx xxxx">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="bookingCardExpiry">Expiry Date</label>
+                            <input type="text" id="bookingCardExpiry" class="form-control" placeholder="MM/YY">
+                        </div>
+                        <div class="form-group">
+                            <label for="bookingCardCvc">CVC</label>
+                            <input type="text" id="bookingCardCvc" class="form-control" placeholder="xxx">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="bookingRequests">Special Requests</label>
+                    <textarea id="bookingRequests" class="form-control" placeholder="Any special requests or notes"></textarea>
+                </div>
+                <button type="submit" class="button primary">Confirm Booking & Pay</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
