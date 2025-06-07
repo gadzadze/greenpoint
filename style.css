@@ -1006,7 +1006,7 @@ footer {
 
 /* Register Options Section */
 .register-options {
-    padding: 0; /* Increased bottom padding to create space before footer */
+    padding: 100px 0; /* Increased bottom padding to create space before footer */
 }
 
 /* Desktop Styles (min-width: 769px) */
@@ -1538,6 +1538,7 @@ footer {
     }
     .footer-container {
         grid-template-columns: 1fr;
+        padding: 10px;
     }
     .search-form {
         grid-template-columns: 1fr;
@@ -1558,11 +1559,11 @@ footer {
     }
     /* Add padding to body to offset fixed header */
     body {
-        padding-top: 60px; /* Increased from default to match header height + space */
+        padding: 60px 0 0; /* Increased from default to match header height + space */
     }
     /* Add specific padding to register-options for mobile */
     .register-options {
-        padding: 70px 0 60px; /* Increased top padding to 70px for mobile */
+        padding: 20px 0 60px; /* Increased top padding to 70px for mobile */
     }
     /* Ensure header height is consistent */
     header {
