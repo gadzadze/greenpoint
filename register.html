@@ -6,6 +6,15 @@
     <title>Register - GreenPoint</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+    <style>
+        .option-icon {
+            font-size: 2.5rem;
+            color: var(--accent);
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -25,16 +34,25 @@
                 <p>Join our network and be part of the EV revolution</p>
                 <div class="features-grid">
                     <div class="feature-card">
+                        <div class="option-icon">
+                            <i class="fas fa-car"></i>
+                        </div>
                         <h3>Driver</h3>
                         <p>Register as an EV driver to find charging stations, request energy, and book maintenance services.</p>
                         <a href="#" class="button primary" onclick="showModal('registerModal')">Register as Driver</a>
                     </div>
                     <div class="feature-card">
+                        <div class="option-icon">
+                            <i class="fas fa-home"></i>
+                        </div>
                         <h3>Host</h3>
                         <p>Register as a host to share your charger or vehicle-to-vehicle (V2V) energy with other EV owners.</p>
                         <a href="#" class="button primary" onclick="showModal('hostTypeModal')">Register as Host</a>
                     </div>
                     <div class="feature-card">
+                        <div class="option-icon">
+                            <i class="fas fa-wrench"></i>
+                        </div>
                         <h3>Service Center</h3>
                         <p>Register your business to provide EV maintenance and repair services to our community.</p>
                         <a href="#" class="button primary" onclick="showModal('serviceRegisterModal')">Register as Service</a>
