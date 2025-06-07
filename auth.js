@@ -139,29 +139,31 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Driver registration form (for register.html)
+     // Driver registration form (for index.html)
     const driverRegisterForm = document.getElementById('driverRegisterForm');
     if (driverRegisterForm) {
         driverRegisterForm.addEventListener('submit', (e) => {
             e.preventDefault();
-            const userData = {
-                firstName: document.getElementById('driverFirstName').value,
-                lastName: document.getElementById('driverLastName').value,
-                email: document.getElementById('driverEmail').value,
-                phone: document.getElementById('driverPhone').value,
-                password: document.getElementById('driverPassword').value,
-                evModel: document.getElementById('driverEvModel').value,
-                vin: document.getElementById('driverVin').value,
-                plate: document.getElementById('driverPlate').value
+                const userData = {
+                    firstName: document.getElementById('regFirstName').value,
+                    lastName: document.getElementById('regLastName').value,
+                    email: document.getElementById('regEmail').value,
+                    phone: document.getElementById('regPhone').value,
+                    password: document.getElementById('regPassword').value,
+                    evModel: document.getElementById('regEvModel').value,
+                    vin: document.getElementById('regVin').value,
+                    plate: document.getElementById('regPlate').value
             };
 
-            console.log('Driver Registration data:', userData);
-            alert('Driver registration successful! Welcome to GreenPoint. (This is a demo)');
-            closeModal('driverRegisterModal');
-            updateAuthUI(true);
-            window.location.href = 'driver_panel.html'; // Redirect to driver panel
+                console.log('Driver Registration data:', userData);
+                console.log('Driver registration successful (demo)');
+                closeModal('registerModal');
+                updateAuthUI(true);
+                console.log('Redirecting to driver_panel.html');
+                window.location.href = './driver-panel.html';
         });
     }
+
 
     // Host registration form (for register.html)
     const hostRegisterForm = document.getElementById('hostRegisterForm');
@@ -176,7 +178,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 password: document.getElementById('hostPassword').value,
                 chargerType: document.getElementById('hostChargerType').value,
                 connectorType: document.getElementById('hostConnectorType').value,
-                chargerLocation: document.getElementById('hostChargerLocation').value
+                chargerLocation: document.getElementById('hostLocation').value
             };
 
             console.log('Host Registration data:', hostData);
@@ -205,7 +207,7 @@ document.addEventListener('DOMContentLoaded', () => {
             alert('Service Center registration successful! Welcome to GreenPoint. (This is a demo)');
             closeModal('serviceRegisterModal');
             updateAuthUI(true);
-            window.location.href = 'admin.html'; // Redirect to service center panel
+            window.location.href = 'admin_panel.html'; // Redirect to service center panel
         });
     }
 
